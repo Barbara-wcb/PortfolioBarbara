@@ -1,0 +1,40 @@
+body {font-family:century gothic;margin:0;padding:0;}
+.content{max-width:1000px; width: 90%; overflow: hidden;margin:0 auto;}
+
+header {width:100%;background:#000;position:fixed;}
+header .name{max-width: 100px;width: 100%; float: left;}
+header .menu{width:100%;}
+header .menu ul{list-style:none;font-size:1.2em;float: right;margin-top: 25px;}
+header .menu ul li{display:inline;color:#fff;padding:15px;}
+header .menu ul li a:link, .button a:link{display:inline-block;padding: 2px 10px;text-decoration:none;color:#fff;}
+header .menu ul li a:visited, .button a:visited{color:#fff;text-decoration:none;}
+header .menu ul li a:hover{border-bottom:3px solid #C15D6E;color:#fff;}
+
+#project{width:100%;}
+
+/* jQuery lightBox plugin - Gallery style */
+.gallery {background-color: #fff;padding: 10px;width: auto;margin-top:70px;display: flex;align-items:center;justify-content: center;}
+.gallery ul { list-style: none; }
+.gallery ul li { display: inline;list-style: none; }
+.gallery ul img {border: 5px solid #444444;border-width: 5px 5px 20px;}
+.gallery ul a:hover img {border: 5px solid #fff;border-width: 5px 5px 20px;color: #fff;}
+.gallery ul a:hover { color: #fff; }
+
+
+#sobre{width: 100%;}
+#sobre .text{width:100%;max-width:500px;float:right;padding:10px;margin-top:60px;}
+#sobre .text h2{font-family: 'Dancing Script', cursive;font-size:2em;text-indent: 2em;}
+#sobre .text p{text-indent: 2em;padding:5px;}
+#sobre .figure{width:100%;max-width:350px;float:left;margin-left: 60px;margin-top: 180px;}
+#sobre .figure img{width:100%;}
+#sobre a.down {text-decoration: none;color:#C15D6E;}
+
+#contato{width:100%;background: #000;}
+#contato h2{color:#C15D6E;text-align:center;}
+#contato span{display:inherit;text-align:center;color:#fff;padding:30px 0;font-size:0.8em;}
+#contato .dados{width:100%;max-width:350px;padding:2px;margin:0 auto;}
+#contato .dados h3{color:#fff;font-size: 1.1em;}
+#contato .dados img{width:100%;max-width:40px;float:left;padding:10px;}
+	
+
+
